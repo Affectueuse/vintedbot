@@ -1,0 +1,41 @@
+{
+    "token": "process.env.TOKEN",
+    "prefix": "$",
+    "status": "Dev by 2$py#6495",
+    "suburl": {
+        "https://discord.com/api/webhooks/962456117777162260/bxpi2jRQlzqiQWbYRdaqty8jd3CBO78jn1jUEwpTshxnQ_h_HNnngK2m67hubdRwgAFy": {
+            "url": "https://www.vinted.fr/vetements?search_text=Jordan%201&search_id=4997940198&brand_id[]=2703&brand_id[]=53&brand_id[]=283953&price_from=0&currency=EUR&price_to=100&status[]=2&status[]=3&status[]=4&order=newest_first",
+            "salon": "snkrs"
+        },
+        "https://discord.com/api/webhooks/962456139658850334/qh-maQXAaxgcutW33wPKlMLdQN21aqDqzVJnpNidIBLO4urYH7IIRYxlOuWc-6pK35qY": {
+            "url": "https://www.vinted.fr/vetements?search_text=Dunk&search_id=4997948591&brand_id[]=2703&brand_id[]=53&brand_id[]=283953&price_from=0&currency=EUR&price_to=100&status[]=2&status[]=3&status[]=4&order=newest_first&time=1649537060",
+            "salon": "snkrs"
+        },
+        "https://discord.com/api/webhooks/962456547227734026/iRZbDnVJpFIDKpxvh_pikNeruNotwCETk2BQRcSjXpiE9rMzNxOMMruRPPGI2pyQ--n4": {
+            "url": "https://www.vinted.fr/vetements?search_text=Cargo%20Carhartt&price_from=0&currency=EUR&price_to=20&status[]=6&status[]=1&status[]=2&status[]=3&order=newest_first&brand_id[]=362",
+            "salon": "vetements"
+        },
+        "https://discord.com/api/webhooks/962456592270385222/Eifu9pe_xySfeokiwHFsRgqw9AC16T25R_3pusESx8g-bw1eB-81sof4Kmkk-FeMbLwN": {
+            "url": "https://www.vinted.fr/vetements?search_text=Ralph%20Lauren&search_id=4997967205&price_from=0&currency=EUR&price_to=15&status[]=2&status[]=3&status[]=4&order=newest_first&brand_id[]=88",
+            "salon": "vetements"
+        },
+        "https://discord.com/api/webhooks/962456598184353883/O2DVW8GMJqGnyoOD_R7MnccYyabwKwHDzQqY7K9j67A6U7YyY0xqcgwpYiNax1XAE8aY": {
+            "url": "https://www.vinted.fr/vetements?search_text=Sweat%20Carhartt&price_from=0&currency=EUR&price_to=20&status[]=6&status[]=1&status[]=2&status[]=3&order=newest_first&brand_id[]=362",
+            "salon": "vetements"
+        }
+    },
+    "embed-color-text": "YAML",
+    "embed-color": 16777215,
+    "embed-config": {
+        "prix": "oui",
+        "vendeur": "oui",
+        "avis": "oui",
+        "localisation": "non",
+        "marque": "oui",
+        "taille": "oui",
+        "couleur": "non",
+        "etat": "oui"
+    }
+}
+
+client.login(process.env.TOKEN);
